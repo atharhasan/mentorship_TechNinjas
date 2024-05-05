@@ -16,7 +16,7 @@ class SpaceXApp extends StatelessWidget {
       child: MaterialApp(
         title: "Salam Ride",
         debugShowCheckedModeBanner: false,
-        initialRoute: Routes.onBoardingScreen,
+        initialRoute: Routes.categoryScreen,
         onGenerateRoute: appRouter.generateRoute,
       ),
     );
